@@ -113,7 +113,7 @@ static void render_logo(void) {
 oled_rotation_t oled_init_user(oled_rotation_t rotation) {
   return OLED_ROTATION_180;
 }
-// Success?
+// Success? Maybe
 bool oled_task_user(void) {
     // Host Keyboard Layer Status
     render_logo();
